@@ -7,18 +7,18 @@ The Hotel Reservation System project is developed using Object-Oriented Programm
 The objective of this project is to design and implement a Hotel Reservation System using Object-Oriented Programming (OOP) principles in C++. The system simulates the basic functionality of a hotel booking system, allowing users to manage hotel rooms (both Standard and Premium), handle reservations for specific dates, and manage room inventory dynamically.
 Functional Requirements
 The system must provide the following features:
-• Add Room: Allow users to add new rooms of either Standard or Premium type.
-• List Rooms: Display all available rooms with their reservation status.
-• Reserve Room: Reserve a room for a specific date by its index.
-• Remove Room: Remove a room from the hotel by its index.
-• Exit: Safely terminate the program.
+â€¢ Add Room: Allow users to add new rooms of either Standard or Premium type.
+â€¢ List Rooms: Display all available rooms with their reservation status.
+â€¢ Reserve Room: Reserve a room for a specific date by its index.
+â€¢ Remove Room: Remove a room from the hotel by its index.
+â€¢ Exit: Safely terminate the program.
 Learning Objectives
 This project demonstrates core Object-Oriented Programming concepts, including:
-• Abstraction: Achieved through an abstract base class RoomBase, which defines a standard interface for rooms.
-• Inheritance: Different room types (StandardRoom and PremiumSuite) inherit from the base class and implement their own reservation logic.
-• Polymorphism: Implemented using virtual functions that behave differently based on room type.
-• Dynamic Memory Management: Rooms are managed using dynamically allocated arrays and pointers.
-• Encapsulation and Modular Design: Each class handles its own data and responsibilities, promoting clarity and reusability.
+â€¢ Abstraction: Achieved through an abstract base class RoomBase, which defines a standard interface for rooms.
+â€¢ Inheritance: Different room types (StandardRoom and PremiumSuite) inherit from the base class and implement their own reservation logic.
+â€¢ Polymorphism: Implemented using virtual functions that behave differently based on room type.
+â€¢ Dynamic Memory Management: Rooms are managed using dynamically allocated arrays and pointers.
+â€¢ Encapsulation and Modular Design: Each class handles its own data and responsibilities, promoting clarity and reusability.
 
 2. How the Task Was Completed
 The Hotel Reservation System was implemented using C++ and Object-Oriented Programming (OOP) principles to ensure modularity, clarity, and reusability. At its core, the system is designed around a few key components. 
